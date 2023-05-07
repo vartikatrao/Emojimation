@@ -1,3 +1,0 @@
-# Emojimation
-IEEE envision project
-
