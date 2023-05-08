@@ -13,4 +13,6 @@ create a virtual env
 
 install requirements2.txt
 
+run this command in terminal "streamlit run webapp.py"
+
 
