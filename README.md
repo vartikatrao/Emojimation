@@ -1,17 +1,17 @@
 # Emojimation
 
 ---
-<!-- layout: post -->
-<!-- title: "Emojimation" -->
-## Facial expression recognition 
+Facial expression recognition 
+
 IEEE Envision Project
-<!-- thumbnail: "filename.jpg" -->
+
 year: 2023
+
 ---
 
 ### Project Guide
 
-- _____________
+- 
 
 ### Mentors
 
@@ -62,15 +62,14 @@ The implementation of the model is done using a GUI interface and a web app usin
 
 ## Datasets 
 
-###  Facial Expression Recognition
+###  Facial Expression Recognition 2013
 
-The data consists of 48x48 pixel grayscale images of faces. It consists of 28,709 images. 
+The data consists of 48x48 pixel grayscale images of faces. There are a total of 28,709 images. 
 
-There are a set of 200 target words spoken by two female speakers, resulting in 2800 data points in total. 
+### Bar graph representing the number of images of each emotion: 
 
-### Bar graph representing the number of images in each emotion: 
+![image](https://github.com/ktLearner/Emojimation/assets/122672121/6f0d27e7-959d-4638-a035-e747d248266e)
 
-<!-- ![image1](https://user-images.githubusercontent.com/78913275/175575200-3846ff05-9664-4be5-88c0-751710f48246.png) -->
 
 
 ## Data Augmentation 
