@@ -1,10 +1,10 @@
 # Emojimation
 ---
-# layout: post
+layout: post
 title: "Emojimation"
 description: "Facial expression recognition "
 categories: IEEE Envision
-# thumbnail: "filename.jpg"
+thumbnail: "filename.jpg"
 year: 2023
 ---
 
