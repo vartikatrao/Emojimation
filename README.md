@@ -161,6 +161,30 @@ We still plan on improving the accuracy of our model.
 
 Through this project, we learnt and showed how we can extract audio features using Librosa and implement deep learning using Keras to predict emotion from speech audio data and some insights on the human expression of emotion through voice. 
 
+## Implementation
+We have implemented our project by making a GUI based interface and a Web app using Streamlit.
+
+### Streamlit
+
+#### Instructions
+
+1) clone the repo
+
+2) switch to webpp branch
+
+3) add the dl models h5 file with the name "FER2013new.h5"
+
+4) create a virtual env
+
+5) install requirements.txt
+
+6) run this command in terminal "streamlit run webapp.py"
+
+#### Webview
+![image](https://github.com/ktLearner/Emojimation/assets/122672121/5de2c414-dcd9-45f0-bcf7-72e037918917)
+### GUI
+
+
 ## References
 1. https://www.youtube.com/watch?v=iCwMQJnKk2c&list=PL-wATfeyAMNqIee7cH3q1bh4QJFAaeNv0 
 
