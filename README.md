@@ -145,25 +145,32 @@ Adam optimizer was used along with a batch size of 32 and 200 epochs.  The above
 The kernel size used in the convolutional layers are either 3 or 5 and the pool size in the maxpooling layers are all set to 3 making strides of 2. 
 
 ## Result 
+<img width="402" alt="image" src="https://github.com/Chiru2004/Emojimation/assets/123258424/0d8a8f1b-f4f7-4a2b-b581-e44b22853b17">
+<br>Training and validation accuracy
 
-![image6](https://user-images.githubusercontent.com/78913275/175576026-16160a7c-3f03-43f4-9c8b-fb54f96de095.png)
+<br>
+On the test set, we have achieved an accuracy of  around 65% and an accuracy of around 68% on the validation set. 
+We are trying to improve the accuracy of our model. 
 
-![image7](https://user-images.githubusercontent.com/78913275/175560546-7c89dd72-8709-4ae0-b8ec-8561f43efa85.png)
+## A Confusion matrix of the predicted output is shown below 
 
-On the test set, we have achieved an accuracy of 89% and an accuracy of 74.76% on the validation set. 
-We still plan on improving the accuracy of our model. 
-
-## A snippet of the predicted output is shown below 
-
-![image8](https://user-images.githubusercontent.com/78913275/175576199-252e8deb-35fc-4f57-8c75-0a72ccc36d9f.png)
+<img width="270" alt="image" src="https://github.com/Chiru2004/Emojimation/assets/123258424/94c65447-90c1-4855-a565-4c88bc6fa4c4">
 
 ## Conclusion 
 
 This Project gave us an oppurtunity to learn image processing and classification of images based on emotions through deep learning implemented through Tensorflow Keras. It provided proper insight over feature ectraction from images through CNNs. Understanding the CNN architecture to obtain optimum accuracy and minimum loss was exciting. Development of GUI using openCV and Tkinter which is able classify the face into corresponding emotion through camera was definetly a plus to knowledge learnt in the project.
 
 ## References
-1. https://www.youtube.com/watch?v=iCwMQJnKk2c&list=PL-wATfeyAMNqIee7cH3q1bh4QJFAaeNv0 
 
-2. https://www.youtube.com/watch?v=gZmobeGL0Yg&list=PLZbbT5o_s2xq7LwI2y8_QtvuXZedL6tQU 
+1. https://in.coursera.org/learn/neural-networks-deep-learning	
 
-3. https://www.youtube.com/watch?v=tDaGT4N4aCA&list=PLZbbT5o_s2xrwRnXk_yCPtnqqo4_u2YGL 
+2. https://in.coursera.org/specializations/machine-learning-introduction#courses
+
+3. https://github.com/marinavillaschi/ML-AndrewNg
+
+4. https://github.com/amanchadha/coursera-deep-learning-specialization
+
+5. https://deeplizard.com/resource/pavq7noze2.
+
+6. https://deeplizard.com/resource/pavq7noze3 
+ 
