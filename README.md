@@ -9,9 +9,7 @@ year: 2023
 
 ---
 
-### Project Guide
 
-- 
 
 ### Mentors
 
@@ -28,9 +26,6 @@ year: 2023
 - Chirag S
 
 - Bhuvanesh Singla
-
-## Acknowledgments
-We had a great experience learning about image processing and computer vision using deep learning models. we express our deep gratitude to Dr. __________ for allowing us to work on this project. 
 
 ## Aim
 
