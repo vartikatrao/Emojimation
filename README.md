@@ -1,18 +1,18 @@
 # Emojimation
 IEEE envision project
 
-# instructions
+# Instructions
 
-clone the repo
+1) clone the repo
 
-switch to webpp branch
+2) switch to webpp branch
 
-add the dl models h5 file with the name "FER2013new.h5"
+3) add the dl models h5 file with the name "FER2013new.h5"
 
-create a virtual env
+4) create a virtual env
 
-install requirements2.txt
+5) install requirements.txt
 
-run this command in terminal "streamlit run webapp.py"
+6) run this command in terminal "streamlit run webapp.py"
 
 
