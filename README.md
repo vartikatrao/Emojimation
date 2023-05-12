@@ -149,7 +149,7 @@ The kernel size used in the convolutional layers are either 3 or 5 and the pool 
 <br>Training and validation accuracy
 
 <br>
-On the test set, we have achieved an accuracy of  around 65% and an accuracy of around 68% on the validation set. 
+On the test set, we have achieved an accuracy of around 65% and an accuracy of around 68% on the validation set. 
 We are trying to improve the accuracy of our model. 
 
 ## A Confusion matrix of the predicted output is shown below 
@@ -158,7 +158,7 @@ We are trying to improve the accuracy of our model.
 
 ## Conclusion 
 
-This Project gave us an oppurtunity to learn image processing and classification of images based on emotions through deep learning implemented through Tensorflow Keras. It provided proper insight over feature ectraction from images through CNNs. Understanding the CNN architecture to obtain optimum accuracy and minimum loss was exciting. Development of GUI using openCV and Tkinter which is able classify the face into corresponding emotion through camera was definetly a plus to knowledge learnt in the project.
+This Project gave us an oppurtunity to learn image processing and classification of images based on emotions through deep learning implemented through Tensorflow Keras. It provided proper insight over feature extraction from images through CNNs. Understanding the CNN architecture to obtain optimum accuracy and minimum loss was exciting. Development of GUI using openCV and Tkinter which is able to classify the face and output the emotion was definetly a plus to knowledge learnt in the project.
 
 ## References
 
