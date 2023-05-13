@@ -120,7 +120,8 @@ Due to large number of paramters, these networks can learn very complex patterns
 
  Our project involves use of a CNN architecture to classify input image into 7 classes of emotion. The network learns pattern from images training images and uses the knowledge to classify real time human expressions
 
-![FER](https://www.researchgate.net/publication/331681396/figure/fig4/AS:735635459551240@1552400569220/Facial-expressions-recognition-general-CNN-architecture-With-preprocessing-the-input.jpg)
+![image](https://github.com/Bhuvanesh-Singla/Emojimation_Bhuvanesh_Version/assets/125354611/e07d1fd2-0b02-4693-8d04-1921bbfae833)
+
 
 
 ## Model Architecture
