@@ -139,29 +139,6 @@ We have implemented our project by making a GUI based interface and a Web app us
 
 This Project gave us an oppurtunity to learn image processing and classification of images based on emotions through deep learning implemented through Tensorflow Keras. It provided proper insight over feature extraction from images through CNNs. Understanding the CNN architecture to obtain optimum accuracy and minimum loss was exciting. Development of GUI using openCV and Tkinter which is able to classify the face and output the emotion was definetly a plus to knowledge learnt in the project.
 
-## Implementation
-We have implemented our project by making a GUI based interface and a Web app using Streamlit.
-
-### Streamlit
-
-#### Instructions
-
-1) clone the repo
-
-2) switch to webpp branch
-
-3) add the dl models h5 file with the name "FER2013new.h5"
-
-4) create a virtual env
-
-5) install requirements.txt
-
-6) run this command in terminal "streamlit run webapp.py"
-
-#### Webview
-![image](https://github.com/ktLearner/Emojimation/assets/122672121/5de2c414-dcd9-45f0-bcf7-72e037918917)
-### GUI
-
 
 ## References
 
