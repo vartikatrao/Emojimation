@@ -63,49 +63,7 @@ The data consists of 48x48 pixel grayscale images of faces. There are a total of
 
 ### Bar graph representing the number of images of each emotion: 
 
-![image](https://github.com/ktLearner/Emojimation/assets/122672121/6f0d27e7-959d-4638-a035-e747d248266e)
-
-
-
-## Data Augmentation 
-
-A key part of deep learning is to feed the neural network with a lot of data so that it can learn to generalize well. Data Augmentation is used to generate additional audio file samples by slightly modifying already existing data. This helps us to minimize overfitting of our model. 
-
-### Noise injection
-
-In this process we add white noise to an audio sample, hence producing additional audio samples having slightly different audio features but representing the same emotion. 
-
-### Time stretching
-
-Time stretching is the process of changing the speed or duration of an audio signal without affecting its pitch. 
-
-### Pitch scaling
-
-It is the process of changing the pitch without affecting the speed. It should only be used to a small extent as pitch forms an important part of emotion. 
-
-## Feature Extraction 
-
-The following features have been extracted from each audio sample. These set of features helps the model distinguish each audio sample from the another. 
-
-### Zero Crossing Rate
-
-The zero-crossing rate is the rate at which a given signal changes from positive to zero to negative or vice versa. 
-
-### Chroma
-
-Chroma and chroma related features are a powerful tool for analyzing music whose pitches can be meaningfully categorized (often into twelve categories) and whose tuning approximates to the equal-tempered scale. 
-
-### Mel-Frequency Cepstral Coefficients
-
-The Mel-Frequency Cepstrum(MFC) is a representation of the short-term power spectrum of a sound, based on a linear cosine transform of a log power spectrum on a nonlinear mel scale of frequency. Mel-frequency cepstral coefficients are coefficients that collectively make up an MFC. 
-
-### Root Mean Square Energy
-
-RMS is a meaningful way of calculating the average of values over a period of time. With audio, the signal value (amplitude) is squared, averaged over a period of time, then the square root of the result is calculated. 
-
-### Mel Spectrogram
-
-A spectrogram is a visual way of representing the signal strength of a signal over time at various frequencies present in a particular waveform. Mel spectrogram is a spectrogram that is converted to a Mel scale. The Mel scale mimics how the human ear works, with research showing humans don’t perceive frequencies on a linear scale, rather perceive frequencies on a logarithmic scale. Humans are better at detecting differences at lower frequencies than at higher frequencies. 
+![image](https://github.com/amanrajNitk/image/blob/6f2106652508873d5685346314a6eb1744738a23/Screenshot%202023-05-13%20235406.png)
 
 ## Convolutional Neural Network
 
