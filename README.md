@@ -109,35 +109,36 @@ A spectrogram is a visual way of representing the signal strength of a signal ov
 
 ## Convolutional Neural Network
 
-CNNs or convolutional neural nets are a type of deep learning algorithm that does really well at learning images. That’s because they can learn patterns that are translation invariant and have spatial hierarchies. 
+ Convolutional Neural Network or CNN is a type of artificial neural network which has capability to analyse images and video. They apply a special type of mathematical operation called _Convolution_. 
 
-By leveraging this power of CNN, it could also be used to classify audio clips. We can extract features which look like images and then shape them in a way in order to feed them into a CNN. 
+Due to large number of paramters, these networks can learn very complex patterns and are _Shift invariant_. Owing to this power of CNN, they are widely used in image classification algorithms.
 
-That’s exactly what’s used in our project, extracting audio features and then shaping them into a multi-dimensional matrix, which is then fed into the CNN for training. This builds a robust model which is capable of classifying the emotions of an audio clip. 
+ Our project involves use of a CNN architecture to classify input image into 7 classes of emotion. The network learns pattern from images training images and uses the knowledge to classify real time human expressions
 
-![image5](https://user-images.githubusercontent.com/78913275/175575885-c2503de9-14e7-451d-bdb5-b80f533009d0.png)
+![image](https://github.com/Bhuvanesh-Singla/Emojimation_Bhuvanesh_Version/assets/125354611/e07d1fd2-0b02-4693-8d04-1921bbfae833)
+
+
 
 ## Model Architecture
 
-We have used an alternate sequence of Convolutional Layers and MaxPooling Layers for our Model. Our model also includes other layers like 
+Our CNN model is inspired by VGG-16 which is one of the popular algorithms for image classification. 
 
-Dropout->it randomly ignores a set of neurons in the model in order to reduce its complexity and also helps reduce overfitting. 
-Flatten-> it converts the output from the Convolutional and MaxPooling Layers into a 1-dimensional array for inputting it to the next layer. 
-Dense-> it was used as the output layer for classifying the emotion of the audio clip. 
+We have 4 convolution layers each followed by a _Dropout_ and _MaxPooling_ layer with a stride of 2 and each layer having few sub-layers. 
 
-ReLU is the activation function used for all Convolutional Layers. 
+A kernel size of 3 and _same_ padding was utilised. 
 
-We have also used Softmax as the activation function for the final layer as our model predicts a multinomial probability distribution. 
+It is followed by a _Flattening layer_ and a _Dense network_ of 3 fully connected layers and at the end an output layer for performing the final classification. 
 
-Using ReduceLROnPlateau helps us monitor the training loss and if no improvement is seen for a patience number of epochs, the learning rate is reduced by a certain factor. 
+While compiling the model, Adam optimizer was deployed with an optimum leraning rate to perform the training effectively.
 
-The learning rate was initially set to 0.001 and was adjusted according to ReduceLROnPlateau throughout the process of training. 
+The activation function used in layers is _ReLU_ and at the end _Softmax_ is used in output layer.
 
-The loss function used in this model is categorical_crossentropy. 
-
-Adam optimizer was used along with a batch size of 32 and 200 epochs.  The above Hyperparameters could still be slightly tweaked to further improve accuracy. 
-
-The kernel size used in the convolutional layers are either 3 or 5 and the pool size in the maxpooling layers are all set to 3 making strides of 2. 
+Several techniques to prevent overfitting and ease training had been used.
+* 1. Dropout Layers: These randomly turns off certain neurons from the model in order to reduce the over dependency of model over any particular node or feature.
+* 2. Batch Normalization : It makes training of neural network faster and more stable by performing some rescaling and recentering of layers' inputs and help in decreasing number of epochs to train.
+* 3. Early Stopping : Early Stopping is a technique wherein the training of model is haulted forcefully once it starts to overfit.
+* 4. Reduce Learning Rate: When a metric stops improving for a longer time, the model is benefitted by reducing the learning rate by a certain factor.
+ 
 
 ## Result 
 <img width="402" alt="image" src="https://github.com/Chiru2004/Emojimation/assets/123258424/0d8a8f1b-f4f7-4a2b-b581-e44b22853b17">
@@ -179,6 +180,30 @@ We have implemented our project by making a GUI based interface and a Web app us
 ## Conclusion 
 
 This Project gave us an oppurtunity to learn image processing and classification of images based on emotions through deep learning implemented through Tensorflow Keras. It provided proper insight over feature extraction from images through CNNs. Understanding the CNN architecture to obtain optimum accuracy and minimum loss was exciting. Development of GUI using openCV and Tkinter which is able to classify the face and output the emotion was definetly a plus to knowledge learnt in the project.
+
+## Implementation
+We have implemented our project by making a GUI based interface and a Web app using Streamlit.
+
+### Streamlit
+
+#### Instructions
+
+1) clone the repo
+
+2) switch to webpp branch
+
+3) add the dl models h5 file with the name "FER2013new.h5"
+
+4) create a virtual env
+
+5) install requirements.txt
+
+6) run this command in terminal "streamlit run webapp.py"
+
+#### Webview
+![image](https://github.com/ktLearner/Emojimation/assets/122672121/5de2c414-dcd9-45f0-bcf7-72e037918917)
+### GUI
+
 
 ## References
 
